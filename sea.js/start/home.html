@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seajs Start</title>
+	<script src="js/sea.js"></script>
+</head>
+<body>
+
+<script src="js/sea_config.js"></script>
+<p id='test'></p>
+<script>
+	seajs.use(['jquery'],function(){
+		$('#test').text('hello');
+	})
+</script>
+</body>
+</html>
