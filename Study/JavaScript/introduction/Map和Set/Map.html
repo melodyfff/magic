@@ -1,0 +1,20 @@
+<html>
+<head>
+<script>
+  var m = new Map([['Michael', 95], ['Bob', 75], ['Tracy', 85]]);
+  var n = m.get('Michael'); // 95
+  alert(n);
+</script>
+</head>
+<body>
+  给定一个名字，要查找对应的成绩，就先要在names中找到对应的位置，再从scores取出对应的成绩，Array越长，耗时越长。<br>
+
+  如果用Map实现，只需要一个“名字”-“成绩”的对照表，直接根据名字查找成绩，无论这个表有多大，查找速度都不会变慢。用JavaScript写一个Map如下：<br>
+  由于一个key只能对应一个value，所以，多次对一个key放入value，后面的值会把前面的值冲掉：<br>
+
+  var m = new Map();<br>
+  m.set('Adam', 67);<br>
+  m.set('Adam', 88);<br>
+  m.get('Adam'); // 88<br>
+</body>
+</html>
