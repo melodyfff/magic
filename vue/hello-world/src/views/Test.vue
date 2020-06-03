@@ -1,7 +1,9 @@
 <template>
   <div class="about">
     <h1>This is an test page</h1>
-    <ComponetTest msg="ComponentTest" />
+    <ComponetTest 
+    msg="ComponentTest" 
+    />
   </div>
 </template>
 
