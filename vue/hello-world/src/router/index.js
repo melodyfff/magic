@@ -22,6 +22,11 @@ Vue.use(VueRouter)
     path: '/test',
     name: 'Test',
     component: () => import('../views/Test.vue')
+  },
+  {
+    path: '/axios',
+    name: 'Axios',
+    component: () => import('../views/AxiosView.vue')
   }
 ]
 
