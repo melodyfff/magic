@@ -50,6 +50,7 @@ class Item extends Component {
   render() {
     return (
       <div>
+        <h1>组件传递遍历列表</h1>
         <NumberList numbers={numbers} />,
         <Blog posts={posts} />,
       </div>

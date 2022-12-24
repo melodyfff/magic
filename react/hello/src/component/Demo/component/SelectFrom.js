@@ -20,6 +20,8 @@ export default class SelectFrom extends Component {
         
   render() {
     return (
+      <>
+        <h1>表单提交</h1>
         <form onSubmit={this.handleSubmit}>
         <label>
           选择您最喜欢的网站
@@ -32,6 +34,7 @@ export default class SelectFrom extends Component {
         </label>
         <input type="submit" value="提交" />
       </form>
+      </>
     )
   }
 }

@@ -14,8 +14,9 @@ export default class HelloMessageInput extends Component {
   render() {
     var value = this.state.value;
     return <div>
+            <h1>改变state的值</h1>
             <input type="text" value={value} onChange={this.handleChange} /> 
-            <h4>{value}</h4>
+            <h4>this.state.value = {value}</h4>
            </div>;
   }
 }

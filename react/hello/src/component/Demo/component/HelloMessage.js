@@ -26,9 +26,11 @@ export default class HelloMessage extends Component {
       }
 
   render() {
- var value = this.state.value;
+    var value = this.state.value;
     var value1 = this.state.value1;
-    return <div>
+    return <>
+          <h1>父子组件传递</h1>
+          <div>
             <table><tbody>
             <tr>
             <td>
@@ -41,5 +43,6 @@ export default class HelloMessage extends Component {
             </tr>
             </tbody></table>
            </div>;
+    </>
   }
 }

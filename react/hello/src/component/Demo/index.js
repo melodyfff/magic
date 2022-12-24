@@ -5,6 +5,7 @@ import WarningBanner from './component/WarningBanner'
 import HelloMessageInput from './component/HelloMessageInput'
 import SelectFrom from './component/SelectFrom'
 import HelloMessage from './component/HelloMessage'
+import MockData from './component/MockData'
 class Demo extends Component {
     render() {
         return (
@@ -20,6 +21,8 @@ class Demo extends Component {
                 <SelectFrom />
                 <hr></hr>
                 <HelloMessage />
+                <hr></hr>
+                <MockData />
             </div>
         );
     }

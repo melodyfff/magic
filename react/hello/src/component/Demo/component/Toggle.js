@@ -18,6 +18,7 @@ class Toggle extends Component {
   render() {
     return (
       <div>
+        <h1>改变状态</h1>
         点击触发状态改变：
         <button onClick={this.handleClick}>
           {this.state.isToggleOn ? "ON" : "OFF"}

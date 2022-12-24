@@ -25,6 +25,7 @@ export default class WarningBanner extends Component {
   render() {
     return (
       <div>
+        <h1>显示隐藏</h1>
         <Warning warn={this.state.showWarning} />
         <button onClick={this.handleToggleClick}>
           {this.state.showWarning ? "隐藏" : "显示"}
