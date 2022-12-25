@@ -18,6 +18,16 @@ function App() {
           Learn React
         </a>
 
+
+        <Link to="/basic/" style={{ color: "black" }}>
+          <div className="App-link">点击跳转到Basic</div>
+        </Link>
+
+
+        <Link to="/antd/" style={{ color: "black" }}>
+          <div className="App-link">点击跳转到Ant Design</div>
+        </Link>
+
         <Link to="/demo/" style={{ color: "black" }}>
           <div className="App-link">点击跳转到Demo</div>
         </Link>

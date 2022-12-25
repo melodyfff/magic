@@ -4,6 +4,8 @@ import "./index.css";
 import RouterApp from "./router";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+// mock api数据，全局使用
+import './mock/users'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

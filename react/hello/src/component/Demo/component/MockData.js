@@ -1,6 +1,6 @@
 import React, {useEffect,useState} from 'react'
 import axios from 'axios'
-import '../../../mock/users'
+
 
 const MockData = () => {
    const [data,setData] = useState({list:[]})
